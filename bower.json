@@ -1,0 +1,28 @@
+{
+  "name": "thermite-test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.1.1",
+    "purescript-console": "^3.0.0",
+    "purescript-thermite": "^5.0.0",
+    "purescript-argonaut": "^3.1.0",
+    "purescript-websocket-simple": "^2.0.0",
+    "purescript-aff-coroutines": "^6.0.0",
+    "purescript-debug": "^3.0.0",
+    "purescript-maps": "^3.6.0",
+    "purescript-refs": "^3.0.0",
+    "purescript-either": "^3.1.0",
+    "purescript-argonaut-codecs": "^3.2.0",
+    "purescript-ffi-utils": "^4.0.0",
+    "purescript-routing": "^7.1.0",
+    "purescript-affjax": "^5.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0"
+  }
+}

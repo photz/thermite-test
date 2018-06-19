@@ -1,0 +1,34 @@
+{
+  "name": "purescript-ffi-utils",
+  "homepage": "https://github.com/Risto-Stevcev/purescript-ffi-utils",
+  "description": "A utility library for the purescript foreign function interface",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/purescript-ffi-utils.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-console": "^3.0.0",
+    "purescript-maybe": "^3.0.0",
+    "purescript-exceptions": "^3.0.0",
+    "purescript-aff": "^4.0.0",
+    "purescript-eff": "^3.1.0",
+    "purescript-functions": "^3.0.0",
+    "purescript-foreign": "^4.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0",
+    "purescript-aff-coroutines": "^6.0.0",
+    "purescript-foreign-generic": "^4.1.0",
+    "purescript-coroutines": "^4.0.0",
+    "purescript-node-process": "^5.0.0",
+    "purescript-spec": "^2.0.0",
+    "purescript-st": "^3.0.0"
+  }
+}
